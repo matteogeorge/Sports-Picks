@@ -1,10 +1,12 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
     color: #333;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 .header-container, .content-container, .footer-container {
     margin: 20px;
@@ -20,11 +22,12 @@ header, section, footer {
 }
 
 h1, h2 {
-    color: #007BFF;
+    color: #ff8c00;
 }
 
 p {
     line-height: 1.6;
+    color: #555;
 }
 
 .discord-embed {
